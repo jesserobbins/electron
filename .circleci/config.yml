@@ -323,6 +323,7 @@ step-get-more-space-on-mac: &step-get-more-space-on-mac
         sudo rm -rf ~/Library/Caches/Homebrew
         sudo rm -rf /usr/local/Homebrew
       fi
+    background: true
 
 # On macOS delete all .git directories under src/ expect for
 # third_party/angle/ because of build time generation of file
